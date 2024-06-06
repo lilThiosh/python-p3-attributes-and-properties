@@ -2,8 +2,8 @@ class Dog:
     approved_breeds = ["Mastiff", "Chihuahua", "Corgi", "Shar Pei", "Beagle", "French Bulldog", "Pug", "Pointer"]
 
     def __init__(self, name="Unknown", breed="Unknown"):
-        self._name = None  
-        self._breed = None  
+        # self._name = None  
+        # self._breed = None  
         self.name = name
         self.breed = breed
 
